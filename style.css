@@ -88,6 +88,7 @@ body {
 .card-caption { 
     font-size: var(--font-size-m);
     color: var(--gray-500);
+    line-height: 1.5; 
 }
 
 
@@ -101,7 +102,6 @@ body {
 .author p { 
     font-weight: 800;
     font-size: var(--font-size-s);
-    line-height: 1.5; 
 }
 
 .author img { 
