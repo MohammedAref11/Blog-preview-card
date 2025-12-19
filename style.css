@@ -43,12 +43,10 @@ body {
     border: 1px solid black ;
 }
 
-
 .card-img img{ 
     width: 100%;
     border-radius: 10px;
 }
-
 
 .tag { 
     display: inline-block;
@@ -75,11 +73,16 @@ body {
     padding: 5px 0px;
 }
 
+@media (max-width: 384px) { 
+   .card-header h1 { 
+    font-size: 22px;
+   }   
+}
+
 
 .card-header:hover { 
     color: var(--yellow);
     cursor: pointer;
-
 }
 
 .card-caption { 
@@ -98,21 +101,8 @@ body {
 .author p { 
     font-weight: 800;
     font-size: var(--font-size-s);
-
 }
 
 .author img { 
     height: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
